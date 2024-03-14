@@ -1,0 +1,146 @@
+div {
+  background-color: #e9dcef;
+}
+
+.body {
+  background-color: #e9dcef;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  margin-right: 3px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b7aeae;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family:"Berkshire Swash", serif;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.newbutton{
+  padding: 10px 20px;
+  background-color: #b7aeae;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: "Berkshire Swash", serif;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.header h1 {
+  font-size: 60px;
+  font-family: "Berkshire Swash", serif;
+  text-align: left;
+  color: #47525e
+}
+
+.header h2 {
+  font-size: 40px;
+  font-family: "Berkshire Swash", serif;
+  text-align: center;
+  color: #47525e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 150px;
+  height: 800px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p {
+  font-size: 150px;
+  font-family: "Berkshire Swash", serif;
+  text-align: justify;
+  text-indent: 5em;
+  color: #47525e;
+
+
+}
+
+.border {
+  background-color: #e9dcef;
+  padding: 280px;
+}
+
+.box {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  border-color: #d9d9d9;
+  background-color: #d9d9d9;
+  padding: 120px;
+}
+ .box p {
+  position: absolute;
+  top: 0;
+  left: 0;
+ }
+
+.box a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.content {
+  background-color: #e9dcef;
+  padding: 280px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.berkshire-swash-regular {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#newbutton{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#newbutton a{
+  width: 200px;
+  margin: 15px;
+}
+
+#fill {
+  height: 100vh;
+}
